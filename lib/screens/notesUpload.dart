@@ -106,7 +106,7 @@ class _notesUploadState extends State<notesUpload> {
                     icon: const Icon(Icons.camera),
                     label: const Text('camera')),
                 ElevatedButton.icon(
-                    onPressed: () => _upload('gallery'),
+                    onPressed: () => _upload('gallery') ,
                     icon: const Icon(Icons.library_add),
                     label: const Text('Gallery')),
               ],

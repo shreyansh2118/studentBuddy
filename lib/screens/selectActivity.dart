@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'calender.dart';
+import 'dict.dart';
 import 'task.dart';
 import 'login/authFile.dart';
 import 'login/loginPage.dart';
@@ -49,17 +50,17 @@ class _selectScreenState extends State<selectScreen> {
           ),
           SizedBox(height: 40,),
 
-          // Container(
-          //   width: 250,
-          //   height: 60,
-          //   child: ElevatedButton(child: Text("Progress Trackinh"),onPressed: () {
-          //     Navigator.push(
-          //       context,
-          //       MaterialPageRoute(builder: (context) => const notesUpload()),
-          //     );
-          //   },),
-          // ),
-          // SizedBox(height: 40,),
+          Container(
+            width: 250,
+            height: 60,
+            child: ElevatedButton(child: Text("Dictionary"),onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => dictionary()),
+              );
+            },),
+          ),
+          SizedBox(height: 40,),
 
           Container(
             width: 250,

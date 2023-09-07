@@ -42,6 +42,10 @@ dependencies:
   firebase_core:
   firebase_auth:
   table_calendar: ^3.0.0
+  fl_chart: ^0.41.0
+  shared_preferences:
+  http:
+
 #  shared_preferences: ^2.2.0
   syncfusion_flutter_calendar: ^22.1.37
 
