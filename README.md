@@ -1,6 +1,8 @@
 # studentBuddy
 
-A new Flutter project.
+Designed an intuitive user-friendly dashboard for students having features like task managment, calendar, notes upload, dictonary.
+
+# pubspec file
 
 ## screen shots 
 
