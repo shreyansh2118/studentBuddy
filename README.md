@@ -1,4 +1,4 @@
-# studentapp
+# studentBuddy
 
 A new Flutter project.
 
